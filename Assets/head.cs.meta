@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/head.cs.meta
 guid: 9777a52a3f039054c8ac70fa627da596
+========
+guid: 450f47ae3bce29c429429b82b6574eb2
+>>>>>>>> 78ea88c353413a7b15c1e6ef66020a2893fac99e:Assets/hand.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
