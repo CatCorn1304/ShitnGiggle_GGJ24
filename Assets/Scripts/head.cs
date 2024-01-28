@@ -11,6 +11,8 @@ public class head : MonoBehaviour
     private int index;
     SpriteRenderer heads;
 
+    public string scenename;
+
     private void Awake()
     {
         heads = gameObject.GetComponent<SpriteRenderer>();
@@ -37,7 +39,7 @@ public class head : MonoBehaviour
 
             if (health == 0)
             {
-
+                SceneManager.LoadScene(scenename);
             }
         }   
     }
