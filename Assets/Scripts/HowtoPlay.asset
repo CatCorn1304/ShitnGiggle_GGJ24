@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f30eecdc576dd43af9f4fc26929bac, type: 3}
+  m_Name: HowtoPlay
+  m_EditorClassIdentifier: 
+  finalText: My young wizard this is your big day! It's time to present your speech
+    that you worked very hard on. I don't want to stress you, but your mortal enemy,
+    Stanlee, is in the audience! Now listen closely, he is going to sabotage your
+    speech by throwing potions at you. If they hit you, you will look very stupid.
+    I can patch you up after your speech, but if you get hit three times then you
+    will die. Block Stanlee's attacks using your freakishly long arm. Godspeed my
+    young wizard!
