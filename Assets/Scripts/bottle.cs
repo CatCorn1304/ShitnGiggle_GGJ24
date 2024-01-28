@@ -8,7 +8,7 @@ public class bottle : MonoBehaviour
     public float speed = 0.5f;
     public float rSpeed = 0.5f;
 
-    public Transform targetObject; // The object to move towards
+    public GameObject targetObject; // The object to move towards
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +35,7 @@ public class bottle : MonoBehaviour
     void MoveTowardsTarget()
     {
         // Calculate the direction to the target
-        Vector3 direction = targetObject.position - transform.position;
+        Vector3 direction = targetObject.transform.position - transform.position;
 
         // Normalize the direction to get a unit vector
         direction.Normalize();

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
 
-    public GameObject spawnedObject;
+    public GameObject spawnedObject, face;
     public float spawnDelay;
     public float xMin;
     public float xMax;
@@ -26,7 +26,11 @@ public class Spawner : MonoBehaviour
         spawnX = Random.Range(xMin, xMax);
         spawnY = Random.Range(yMin, yMax);
         yield return new WaitForSeconds(spawnDelay);
-        Instantiate(spawnedObject, new Vector3(spawnX, spawnY, 0), Quaternion.identity);
+        GameObject potion = Instantiate(spawnedObject, new Vector3(spawnX, spawnY, 0), Quaternion.identity);
         StartCoroutine(Spawn());
+
+
+        bottle vace = potion.GetComponent<bottle>();
+        vace.targetObject = face;
     }
 }

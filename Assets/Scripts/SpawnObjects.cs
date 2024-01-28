@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class SpawnObjects : MonoBehaviour
 {
-    public GameObject objectToSpawn;
+    public GameObject objectToSpawn, face;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +25,10 @@ public class SpawnObjects : MonoBehaviour
     void SpawnObj()
     {
         
-       Instantiate(objectToSpawn, GetSpawnPoint(), Quaternion.identity); 
+        GameObject potion = Instantiate(objectToSpawn, GetSpawnPoint(), Quaternion.identity);
+
+        bottle vace = potion.GetComponent<bottle>();
+        vace.targetObject = face;
     }
 
 
