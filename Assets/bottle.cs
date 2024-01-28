@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class potion : MonoBehaviour
+public class bottle : MonoBehaviour
 {
-    public float movementSpeed = 1f;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +13,6 @@ public class potion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(transform.position.x -movementSpeed,0,0);
+        
     }
 }
