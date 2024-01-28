@@ -69,7 +69,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A tale of sipping
+  m_text: 'A tale of swatting
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -457,7 +459,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: How to chug
+  m_text: How To Play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -657,6 +659,7 @@ GameObject:
   - component: {fileID: 6113563223150810395}
   - component: {fileID: 3442781441104485641}
   - component: {fileID: 973729155700821540}
+  - component: {fileID: 2273323569963193403}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -673,7 +676,7 @@ RectTransform:
   m_GameObject: {fileID: 5527071857850486015}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1907063823517955807}
@@ -727,6 +730,29 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!223 &2273323569963193403
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5527071857850486015}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1 &7775638885839815014
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,7 +822,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wizard Quaff
+  m_text: Potion Preamble
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -859,7 +885,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.000000040486388, y: 0, z: -17.626617, w: 0}
+  m_margin: {x: -47.18808, y: 0, z: -84.078766, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -978,6 +1004,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text (TMP)
       objectReference: {fileID: 0}
+    - target: {fileID: 7608486574890567029, guid: dca489dfc5f73944999f4f60d9d9f4d5,
+        type: 3}
+      propertyPath: m_text
+      value: Potion Preamble
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608486574890567029, guid: dca489dfc5f73944999f4f60d9d9f4d5,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -47.18808
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608486574890567029, guid: dca489dfc5f73944999f4f60d9d9f4d5,
+        type: 3}
+      propertyPath: m_margin.z
+      value: -84.078766
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -995,6 +1036,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Text (TMP)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107267371901625384, guid: fb7a8ff6dfd5ca548973189c5fb41612,
+        type: 3}
+      propertyPath: m_text
+      value: 'A tale of swatting
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 9041683319299868968, guid: fb7a8ff6dfd5ca548973189c5fb41612,
         type: 3}
