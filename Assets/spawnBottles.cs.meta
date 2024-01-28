@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Scripts/Cutscene.cs.meta
-guid: 8c95e8586f7e95b41bd7a0e8b54f5de1
-========
-guid: fcbaaca638cbc8d48b9de0f6890b7fb7
->>>>>>>> 40df960e1f1fd7eaf2cd937313699d63da5a869e:Assets/head.cs.meta
+guid: 6feabed30d332f346ba4aa55e539fdd1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
