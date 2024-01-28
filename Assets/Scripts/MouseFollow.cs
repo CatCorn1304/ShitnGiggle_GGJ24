@@ -13,7 +13,7 @@ public class MouseFollow : MonoBehaviour
         mousePos = Camera.main.ScreenToWorldPoint(mousePos);
         mousePos.z = 0;
         transform.position = mousePos;
-        Debug.Log(mousePos);
+        //Debug.Log(mousePos);
         
     }
    
